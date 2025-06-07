@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/game.css" />
+    <title>Lotto</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <p class="amount" id="amount"></p>
+      <div class="popup-results" id="popup-results">
+        <div class="popup" id="popup">
+          <button class="btn" onclick="endGame()">END</button>
+        </div>
+      </div>
+      <div class="box-wrapper">
+        <div class="box">
+          <label for="one">One</label>
+          <input
+            type="number"
+            id="one"
+            class="input-box"
+            required
+            min="1"
+            max="37"
+          />
+        </div>
+        <div class="box">
+          <label for="two">Two</label>
+          <input
+            type="number"
+            id="two"
+            class="input-box"
+            required
+            min="1"
+            max="37"
+          />
+        </div>
+        <div class="box">
+          <label for="three">Three</label>
+          <input
+            type="number"
+            id="three"
+            class="input-box"
+            required
+            min="1"
+            max="37"
+          />
+        </div>
+        <div class="box">
+          <label for="four">Four</label>
+          <input
+            type="number"
+            id="four"
+            class="input-box"
+            required
+            min="1"
+            max="37"
+          />
+        </div>
+        <div class="box">
+          <label for="five">Five</label>
+          <input
+            type="number"
+            id="five"
+            class="input-box"
+            required
+            min="1"
+            max="37"
+          />
+        </div>
+        <div class="box">
+          <label for="six">Six</label>
+          <input
+            type="number"
+            id="six"
+            class="input-box"
+            required
+            min="1"
+            max="37"
+          />
+        </div>
+      </div>
+      <div class="strong">
+        <label for="strong">Strong number</label>
+        <input
+          type="number"
+          id="strong"
+          class="input-box"
+          required
+          min="1"
+          max="7"
+        />
+      </div>
+      <p id="error" class="error"></p>
+      <button class="btn" onclick="checkNumbersValues()">CHECK</button>
+    </div>
+    <script src="../js/game.js"></script>
+  </body>
+</html>

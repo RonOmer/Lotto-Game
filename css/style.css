@@ -1,0 +1,29 @@
+body {
+  font-size: 1.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #d4e3f3;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: max-content;
+}
+
+.img {
+  width: 100%;
+}
+
+.btn {
+  width: 150px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  border: none;
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
